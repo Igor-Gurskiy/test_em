@@ -1,0 +1,43 @@
+# Python
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyd
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+test-results/
+playwright-report/
+allure-results/
+allure-report/
+reports/
+
+# Playwright
+playwright/.cache/
+playwright/.blobstorage/
+playwright/node_modules/
+playwright/package-lock.json
+
+# System
+.DS_Store
+Thumbs.db
+*.log
+.env
+
